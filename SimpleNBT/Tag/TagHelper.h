@@ -12,17 +12,11 @@
 
 
 @interface TagHelper : NSObject {
-    NSDictionary * BY_CLASS;
-    NSDictionary * BY_NAME;
-    NSArray * BY_ID;
+    NSArray * typeNames;
 }
 
 +(id)shared;
 
--(TagType)typeByClass:(Class)tagClass;
--(TagType)typeByName:(NSString*)tagName;
--(TagType)getById:(NSInteger)tagId;
-
--(NSString*)typeNameByClass:(Class)tagClass;
+-(NSString*)tagNameByType:(TagType) type;
 
 @end

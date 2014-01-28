@@ -24,30 +24,22 @@
 {
     self = [super init];
     if (self) {
-#warning  needs to be completed before build
-        NSArray * tagClasses = @[[ShortTag class]];
-        BY_CLASS = @{};
-        BY_NAME = @{};
-        BY_ID = @[];
+        typeNames = @[@"TAG_End", @"TAG_Byte",
+                      @"TAG_Short", @"TAG_Int",
+                      @"TAG_Long", @"TAG_Float",
+                      @"TAG_Double", @"TAG_Byte_Array",
+                      @"TAG_String", @"TAG_List",
+                      @"TAG_Compound", @"TAG_Int_Array",
+                      @"TAG_Short_Array"
+                      ];
     }
     return self;
 }
 
--(NSString*)typeNameByClass:(Class)tagClass {
-    #warning provide lookup
-    return @"";
-}
 
--(TagType)typeByClass:(Class)tagClass {
-    return TagType_TAG_END;
-}
-
--(TagType)typeByName:(NSString*)typeName {
-    return TagType_TAG_END;
-}
-
--(TagType)getById:(NSInteger)tagId {
-    return TagType_TAG_END;
+-(NSString *)tagNameByType:(TagType)type {
+    if(type == TagType_TAG_SHORT_ARRAY) type = 12;
+    return [typeNames objectAtIndex: type];
 }
 
 
