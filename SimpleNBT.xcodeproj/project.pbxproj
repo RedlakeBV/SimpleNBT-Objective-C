@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AF4C0CEE1897C6B200439354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4C0CED1897C6B200439354 /* Foundation.framework */; };
-		AF4C0CF31897C6B200439354 /* SimpleNBT.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF4C0CF21897C6B200439354 /* SimpleNBT.h */; };
-		AF4C0CF51897C6B200439354 /* SimpleNBT.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0CF41897C6B200439354 /* SimpleNBT.m */; };
 		AF4C0CFC1897C6B200439354 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4C0CFB1897C6B200439354 /* XCTest.framework */; };
 		AF4C0CFD1897C6B200439354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4C0CED1897C6B200439354 /* Foundation.framework */; };
 		AF4C0CFF1897C6B200439354 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4C0CFE1897C6B200439354 /* UIKit.framework */; };
@@ -35,7 +33,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				AF4C0CF31897C6B200439354 /* SimpleNBT.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +42,6 @@
 		AF4C0CEA1897C6B200439354 /* libSimpleNBT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimpleNBT.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4C0CED1897C6B200439354 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF4C0CF11897C6B200439354 /* SimpleNBT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleNBT-Prefix.pch"; sourceTree = "<group>"; };
-		AF4C0CF21897C6B200439354 /* SimpleNBT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleNBT.h; sourceTree = "<group>"; };
-		AF4C0CF41897C6B200439354 /* SimpleNBT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleNBT.m; sourceTree = "<group>"; };
 		AF4C0CFA1897C6B200439354 /* SimpleNBTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleNBTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4C0CFB1897C6B200439354 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AF4C0CFE1897C6B200439354 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -110,8 +105,14 @@
 		AF4C0CEF1897C6B200439354 /* SimpleNBT */ = {
 			isa = PBXGroup;
 			children = (
-				AF4C0CF21897C6B200439354 /* SimpleNBT.h */,
-				AF4C0CF41897C6B200439354 /* SimpleNBT.m */,
+				AF4C0D1A1897C73F00439354 /* Tag */,
+				AF4C0D131897C6C800439354 /* NBT */,
+				AF4C0D171897C6F700439354 /* Stream */,
+				AF4C0D161897C6EF00439354 /* RegionFile */,
+				AF4C0D151897C6DD00439354 /* ItemMap */,
+				AF4C0D191897C70F00439354 /* Holder */,
+				AF4C0D141897C6CE00439354 /* Exception */,
+				AF4C0D181897C70600439354 /* Util */,
 				AF4C0CF01897C6B200439354 /* Supporting Files */,
 			);
 			path = SimpleNBT;
@@ -141,6 +142,63 @@
 				AF4C0D061897C6B200439354 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF4C0D131897C6C800439354 /* NBT */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NBT;
+			sourceTree = "<group>";
+		};
+		AF4C0D141897C6CE00439354 /* Exception */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Exception;
+			sourceTree = "<group>";
+		};
+		AF4C0D151897C6DD00439354 /* ItemMap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ItemMap;
+			sourceTree = "<group>";
+		};
+		AF4C0D161897C6EF00439354 /* RegionFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RegionFile;
+			sourceTree = "<group>";
+		};
+		AF4C0D171897C6F700439354 /* Stream */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Stream;
+			sourceTree = "<group>";
+		};
+		AF4C0D181897C70600439354 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		AF4C0D191897C70F00439354 /* Holder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Holder;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AF4C0D1A1897C73F00439354 /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tag;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4C0CF51897C6B200439354 /* SimpleNBT.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
