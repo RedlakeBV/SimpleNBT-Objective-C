@@ -12,6 +12,6 @@
 
 @property (readonly) long value;
 
-- (id)initWithTagName:(NSString*)tagName andValue:(long)value;
+-(id)initWithTagName:(NSString*)tagName andValue:(long)value;
 
 @end

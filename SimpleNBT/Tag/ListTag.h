@@ -10,9 +10,9 @@
 
 @interface ListTag : Tag <TagDataSource>
 
-@property (readonly) id tagType;
+@property (readonly) TagType tagType;
 @property (readonly) NSArray * tagValue;
 
-- (id)initWithTagName:(NSString*)tagName tagType:(id)tagType andValue:(NSArray*)value;
+-(id)initWithTagName:(NSString*)tagName tagType:(TagType)tagType andValue:(NSArray*)value;
 
 @end

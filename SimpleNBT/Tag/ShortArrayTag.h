@@ -13,5 +13,7 @@
 @property short * value;
 
 -(short*)getValue;
+-(short*)copyArray:(short*)array1;
+-(id)initWithTagName:(NSString*)tagName andValue:(short[])value;
 
 @end

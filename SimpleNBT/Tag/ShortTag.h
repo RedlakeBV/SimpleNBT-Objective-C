@@ -12,6 +12,6 @@
 
 @property (readonly) short value;
 
-- (id)initWithTagName:(NSString*)name andValue:(short)value;
+-(id)initWithTagName:(NSString*)name andValue:(short)value;
 
 @end

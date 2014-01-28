@@ -54,4 +54,8 @@
     return [self.name hash] ^ self.type;
 }
 
+-(id)getValue {
+    return nil;
+}
+
 @end

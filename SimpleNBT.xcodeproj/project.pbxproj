@@ -21,6 +21,37 @@
 		AF4C0D4C1897F2D000439354 /* LongTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D4B1897F2D000439354 /* LongTag.m */; };
 		AF4C0D501897F7BA00439354 /* ListTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D4F1897F7BA00439354 /* ListTag.m */; };
 		AF4C0D54189804B500439354 /* TagHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D53189804B500439354 /* TagHelper.m */; };
+		AF4C0D7C1898473C00439354 /* IntTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D7B1898473C00439354 /* IntTag.m */; };
+		AF4C0D801898493A00439354 /* IntArrayTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D7F1898493A00439354 /* IntArrayTag.m */; };
+		AF4C0D8418984A7700439354 /* FloatTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D8318984A7700439354 /* FloatTag.m */; };
+		AF4C0D8B18984C4400439354 /* DoubleTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D8A18984C4400439354 /* DoubleTag.m */; };
+		AF4C0D8F18984C8500439354 /* EndTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D8E18984C8500439354 /* EndTag.m */; };
+		AF4C0D9318984D1000439354 /* ByteTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D9218984D1000439354 /* ByteTag.m */; };
+		AF4C0D971898500000439354 /* ByteArrayTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D961898500000439354 /* ByteArrayTag.m */; };
+		AF4C0D9B1898511000439354 /* CompoundTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D9A1898511000439354 /* CompoundTag.m */; };
+		AF4C0D9F1898514300439354 /* CompoundDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D9E1898514300439354 /* CompoundDictionary.m */; };
+		AF4C0DB2189853A900439354 /* DListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DA3189853A900439354 /* DListNode.m */; };
+		AF4C0DB3189853A900439354 /* DoubleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DA5189853A900439354 /* DoubleLinkedList.m */; };
+		AF4C0DB4189853A900439354 /* KeyValueNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DA9189853A900439354 /* KeyValueNode.m */; };
+		AF4C0DB5189853A900439354 /* KVDoubleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DAB189853A900439354 /* KVDoubleLinkedList.m */; };
+		AF4C0DB6189853A900439354 /* LinkedHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DAE189853A900439354 /* LinkedHashMap.m */; };
+		AF4C0DB7189853A900439354 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DAF189853A900439354 /* main.m */; };
+		AF4C0DB8189853A900439354 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DB1189853A900439354 /* Node.m */; };
+		AF4C0E091898573100439354 /* AvlTree+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DE81898573100439354 /* AvlTree+Private.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF4C0E0A1898573100439354 /* AvlTree.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DEA1898573100439354 /* AvlTree.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		AF4C0E0B1898573100439354 /* common.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DEC1898573100439354 /* common.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF4C0E0C1898573100439354 /* EntryEnumerator+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DEF1898573100439354 /* EntryEnumerator+Private.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF4C0E0D1898573100439354 /* EntryEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DF11898573100439354 /* EntryEnumerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF4C0E0E1898573100439354 /* KeyEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DF31898573100439354 /* KeyEnumerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF4C0E0F1898573100439354 /* ObjectEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DF51898573100439354 /* ObjectEnumerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF4C0E101898573100439354 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DF71898573100439354 /* Node.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF4C0E111898573100439354 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DF91898573100439354 /* NSString+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF4C0E121898573100439354 /* NSString+Indent.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DFB1898573100439354 /* NSString+Indent.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF4C0E151898573100439354 /* SortedDictionary+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0E021898573100439354 /* SortedDictionary+Private.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF4C0E161898573100439354 /* MutableSortedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0E051898573100439354 /* MutableSortedDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF4C0E171898573100439354 /* SortedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0E071898573100439354 /* SortedDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF4C0E1D18985D1A00439354 /* PropertyListReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0E1A18985D1A00439354 /* PropertyListReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		AF4C0E1E18985D1A00439354 /* PropertyListWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0E1C18985D1A00439354 /* PropertyListWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +102,71 @@
 		AF4C0D4F1897F7BA00439354 /* ListTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListTag.m; path = Tag/ListTag.m; sourceTree = "<group>"; };
 		AF4C0D52189804B500439354 /* TagHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagHelper.h; path = Tag/TagHelper.h; sourceTree = "<group>"; };
 		AF4C0D53189804B500439354 /* TagHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TagHelper.m; path = Tag/TagHelper.m; sourceTree = "<group>"; };
+		AF4C0D7A1898473C00439354 /* IntTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntTag.h; path = Tag/IntTag.h; sourceTree = "<group>"; };
+		AF4C0D7B1898473C00439354 /* IntTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntTag.m; path = Tag/IntTag.m; sourceTree = "<group>"; };
+		AF4C0D7E1898493A00439354 /* IntArrayTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntArrayTag.h; path = Tag/IntArrayTag.h; sourceTree = "<group>"; };
+		AF4C0D7F1898493A00439354 /* IntArrayTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntArrayTag.m; path = Tag/IntArrayTag.m; sourceTree = "<group>"; };
+		AF4C0D8218984A7700439354 /* FloatTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FloatTag.h; path = Tag/FloatTag.h; sourceTree = "<group>"; };
+		AF4C0D8318984A7700439354 /* FloatTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FloatTag.m; path = Tag/FloatTag.m; sourceTree = "<group>"; };
+		AF4C0D8918984C4400439354 /* DoubleTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DoubleTag.h; path = Tag/DoubleTag.h; sourceTree = "<group>"; };
+		AF4C0D8A18984C4400439354 /* DoubleTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DoubleTag.m; path = Tag/DoubleTag.m; sourceTree = "<group>"; };
+		AF4C0D8D18984C8500439354 /* EndTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndTag.h; path = Tag/EndTag.h; sourceTree = "<group>"; };
+		AF4C0D8E18984C8500439354 /* EndTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndTag.m; path = Tag/EndTag.m; sourceTree = "<group>"; };
+		AF4C0D9118984D1000439354 /* ByteTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ByteTag.h; path = Tag/ByteTag.h; sourceTree = "<group>"; };
+		AF4C0D9218984D1000439354 /* ByteTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ByteTag.m; path = Tag/ByteTag.m; sourceTree = "<group>"; };
+		AF4C0D951898500000439354 /* ByteArrayTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ByteArrayTag.h; path = Tag/ByteArrayTag.h; sourceTree = "<group>"; };
+		AF4C0D961898500000439354 /* ByteArrayTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ByteArrayTag.m; path = Tag/ByteArrayTag.m; sourceTree = "<group>"; };
+		AF4C0D991898511000439354 /* CompoundTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompoundTag.h; path = Tag/CompoundTag.h; sourceTree = "<group>"; };
+		AF4C0D9A1898511000439354 /* CompoundTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompoundTag.m; path = Tag/CompoundTag.m; sourceTree = "<group>"; };
+		AF4C0D9D1898514300439354 /* CompoundDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompoundDictionary.h; path = Tag/CompoundDictionary.h; sourceTree = "<group>"; };
+		AF4C0D9E1898514300439354 /* CompoundDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompoundDictionary.m; path = Tag/CompoundDictionary.m; sourceTree = "<group>"; };
+		AF4C0DA2189853A900439354 /* DListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DListNode.h; sourceTree = "<group>"; };
+		AF4C0DA3189853A900439354 /* DListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DListNode.m; sourceTree = "<group>"; };
+		AF4C0DA4189853A900439354 /* DoubleLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleLinkedList.h; sourceTree = "<group>"; };
+		AF4C0DA5189853A900439354 /* DoubleLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleLinkedList.m; sourceTree = "<group>"; };
+		AF4C0DA6189853A900439354 /* IList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IList.h; sourceTree = "<group>"; };
+		AF4C0DA7189853A900439354 /* INode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INode.h; sourceTree = "<group>"; };
+		AF4C0DA8189853A900439354 /* KeyValueNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValueNode.h; sourceTree = "<group>"; };
+		AF4C0DA9189853A900439354 /* KeyValueNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValueNode.m; sourceTree = "<group>"; };
+		AF4C0DAA189853A900439354 /* KVDoubleLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVDoubleLinkedList.h; sourceTree = "<group>"; };
+		AF4C0DAB189853A900439354 /* KVDoubleLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVDoubleLinkedList.m; sourceTree = "<group>"; };
+		AF4C0DAC189853A900439354 /* LinkedHashMap-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LinkedHashMap-Prefix.pch"; sourceTree = "<group>"; };
+		AF4C0DAD189853A900439354 /* LinkedHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedHashMap.h; sourceTree = "<group>"; };
+		AF4C0DAE189853A900439354 /* LinkedHashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedHashMap.m; sourceTree = "<group>"; };
+		AF4C0DAF189853A900439354 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF4C0DB0189853A900439354 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		AF4C0DB1189853A900439354 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		AF4C0DE71898573100439354 /* AvlTree+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AvlTree+Private.h"; sourceTree = "<group>"; };
+		AF4C0DE81898573100439354 /* AvlTree+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AvlTree+Private.m"; sourceTree = "<group>"; };
+		AF4C0DE91898573100439354 /* AvlTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvlTree.h; sourceTree = "<group>"; };
+		AF4C0DEA1898573100439354 /* AvlTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvlTree.m; sourceTree = "<group>"; };
+		AF4C0DEB1898573100439354 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		AF4C0DEC1898573100439354 /* common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = common.m; sourceTree = "<group>"; };
+		AF4C0DEE1898573100439354 /* EntryEnumerator+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EntryEnumerator+Private.h"; sourceTree = "<group>"; };
+		AF4C0DEF1898573100439354 /* EntryEnumerator+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EntryEnumerator+Private.m"; sourceTree = "<group>"; };
+		AF4C0DF01898573100439354 /* EntryEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryEnumerator.h; sourceTree = "<group>"; };
+		AF4C0DF11898573100439354 /* EntryEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryEnumerator.m; sourceTree = "<group>"; };
+		AF4C0DF21898573100439354 /* KeyEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyEnumerator.h; sourceTree = "<group>"; };
+		AF4C0DF31898573100439354 /* KeyEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyEnumerator.m; sourceTree = "<group>"; };
+		AF4C0DF41898573100439354 /* ObjectEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectEnumerator.h; sourceTree = "<group>"; };
+		AF4C0DF51898573100439354 /* ObjectEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectEnumerator.m; sourceTree = "<group>"; };
+		AF4C0DF61898573100439354 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		AF4C0DF71898573100439354 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		AF4C0DF81898573100439354 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		AF4C0DF91898573100439354 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		AF4C0DFA1898573100439354 /* NSString+Indent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Indent.h"; sourceTree = "<group>"; };
+		AF4C0DFB1898573100439354 /* NSString+Indent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Indent.m"; sourceTree = "<group>"; };
+		AF4C0E011898573100439354 /* SortedDictionary+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SortedDictionary+Private.h"; sourceTree = "<group>"; };
+		AF4C0E021898573100439354 /* SortedDictionary+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SortedDictionary+Private.m"; sourceTree = "<group>"; };
+		AF4C0E041898573100439354 /* MutableSortedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableSortedDictionary.h; sourceTree = "<group>"; };
+		AF4C0E051898573100439354 /* MutableSortedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableSortedDictionary.m; sourceTree = "<group>"; };
+		AF4C0E061898573100439354 /* SortedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortedDictionary.h; sourceTree = "<group>"; };
+		AF4C0E071898573100439354 /* SortedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortedDictionary.m; sourceTree = "<group>"; };
+		AF4C0E081898573100439354 /* SortedDictionaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortedDictionaryEntry.h; sourceTree = "<group>"; };
+		AF4C0E1918985D1A00439354 /* PropertyListReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyListReader.h; sourceTree = "<group>"; };
+		AF4C0E1A18985D1A00439354 /* PropertyListReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyListReader.m; sourceTree = "<group>"; };
+		AF4C0E1B18985D1A00439354 /* PropertyListWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyListWriter.h; sourceTree = "<group>"; };
+		AF4C0E1C18985D1A00439354 /* PropertyListWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyListWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +302,8 @@
 		AF4C0D181897C70600439354 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				AF4C0DE51898573100439354 /* SortedDictionary */,
+				AF4C0DA1189853A900439354 /* LinkedHashMap */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -223,12 +321,21 @@
 			children = (
 				AF4C0D1B1897D58B00439354 /* TagType.h */,
 				AF4C0D1F1897D66300439354 /* Tag */,
+				AF4C0D55189804B800439354 /* TagHelper */,
 				AF4C0D231897DD6200439354 /* StringTag */,
 				AF4C0D271897E43000439354 /* ShortTag */,
 				AF4C0D2B1897E5D600439354 /* ShortArrayTag */,
 				AF4C0D4D1897F2D500439354 /* LongTag */,
 				AF4C0D511897F7BE00439354 /* ListTag */,
-				AF4C0D55189804B800439354 /* TagHelper */,
+				AF4C0D7D1898474100439354 /* IntTag */,
+				AF4C0D811898493E00439354 /* IntArrayTag */,
+				AF4C0D8518984A7B00439354 /* FloatTag */,
+				AF4C0D8C18984C4900439354 /* DoubleTag */,
+				AF4C0D9018984C8B00439354 /* EndTag */,
+				AF4C0D9418984D1400439354 /* ByteTag */,
+				AF4C0D981898500400439354 /* ByteArrayTag */,
+				AF4C0D9C1898511600439354 /* CompoundTag */,
+				AF4C0DA01898514B00439354 /* CompoundMap */,
 			);
 			name = Tag;
 			sourceTree = "<group>";
@@ -294,6 +401,182 @@
 				AF4C0D53189804B500439354 /* TagHelper.m */,
 			);
 			name = TagHelper;
+			sourceTree = "<group>";
+		};
+		AF4C0D7D1898474100439354 /* IntTag */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D7A1898473C00439354 /* IntTag.h */,
+				AF4C0D7B1898473C00439354 /* IntTag.m */,
+			);
+			name = IntTag;
+			sourceTree = "<group>";
+		};
+		AF4C0D811898493E00439354 /* IntArrayTag */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D7E1898493A00439354 /* IntArrayTag.h */,
+				AF4C0D7F1898493A00439354 /* IntArrayTag.m */,
+			);
+			name = IntArrayTag;
+			sourceTree = "<group>";
+		};
+		AF4C0D8518984A7B00439354 /* FloatTag */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D8218984A7700439354 /* FloatTag.h */,
+				AF4C0D8318984A7700439354 /* FloatTag.m */,
+			);
+			name = FloatTag;
+			sourceTree = "<group>";
+		};
+		AF4C0D8C18984C4900439354 /* DoubleTag */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D8918984C4400439354 /* DoubleTag.h */,
+				AF4C0D8A18984C4400439354 /* DoubleTag.m */,
+			);
+			name = DoubleTag;
+			sourceTree = "<group>";
+		};
+		AF4C0D9018984C8B00439354 /* EndTag */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D8D18984C8500439354 /* EndTag.h */,
+				AF4C0D8E18984C8500439354 /* EndTag.m */,
+			);
+			name = EndTag;
+			sourceTree = "<group>";
+		};
+		AF4C0D9418984D1400439354 /* ByteTag */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D9118984D1000439354 /* ByteTag.h */,
+				AF4C0D9218984D1000439354 /* ByteTag.m */,
+			);
+			name = ByteTag;
+			sourceTree = "<group>";
+		};
+		AF4C0D981898500400439354 /* ByteArrayTag */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D951898500000439354 /* ByteArrayTag.h */,
+				AF4C0D961898500000439354 /* ByteArrayTag.m */,
+			);
+			name = ByteArrayTag;
+			sourceTree = "<group>";
+		};
+		AF4C0D9C1898511600439354 /* CompoundTag */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D991898511000439354 /* CompoundTag.h */,
+				AF4C0D9A1898511000439354 /* CompoundTag.m */,
+			);
+			name = CompoundTag;
+			sourceTree = "<group>";
+		};
+		AF4C0DA01898514B00439354 /* CompoundMap */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D9D1898514300439354 /* CompoundDictionary.h */,
+				AF4C0D9E1898514300439354 /* CompoundDictionary.m */,
+			);
+			name = CompoundMap;
+			sourceTree = "<group>";
+		};
+		AF4C0DA1189853A900439354 /* LinkedHashMap */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0DA2189853A900439354 /* DListNode.h */,
+				AF4C0DA3189853A900439354 /* DListNode.m */,
+				AF4C0DA4189853A900439354 /* DoubleLinkedList.h */,
+				AF4C0DA5189853A900439354 /* DoubleLinkedList.m */,
+				AF4C0DA6189853A900439354 /* IList.h */,
+				AF4C0DA7189853A900439354 /* INode.h */,
+				AF4C0DA8189853A900439354 /* KeyValueNode.h */,
+				AF4C0DA9189853A900439354 /* KeyValueNode.m */,
+				AF4C0DAA189853A900439354 /* KVDoubleLinkedList.h */,
+				AF4C0DAB189853A900439354 /* KVDoubleLinkedList.m */,
+				AF4C0DAC189853A900439354 /* LinkedHashMap-Prefix.pch */,
+				AF4C0DAD189853A900439354 /* LinkedHashMap.h */,
+				AF4C0DAE189853A900439354 /* LinkedHashMap.m */,
+				AF4C0DAF189853A900439354 /* main.m */,
+				AF4C0DB0189853A900439354 /* Node.h */,
+				AF4C0DB1189853A900439354 /* Node.m */,
+			);
+			name = LinkedHashMap;
+			path = Util/LinkedHashMap;
+			sourceTree = "<group>";
+		};
+		AF4C0DE51898573100439354 /* SortedDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0DE61898573100439354 /* Internal */,
+				AF4C0E031898573100439354 /* Public */,
+			);
+			name = SortedDictionary;
+			path = Util/SortedDictionary;
+			sourceTree = "<group>";
+		};
+		AF4C0DE61898573100439354 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0E1818985D1A00439354 /* Serialization */,
+				AF4C0DE71898573100439354 /* AvlTree+Private.h */,
+				AF4C0DE81898573100439354 /* AvlTree+Private.m */,
+				AF4C0DE91898573100439354 /* AvlTree.h */,
+				AF4C0DEA1898573100439354 /* AvlTree.m */,
+				AF4C0DEB1898573100439354 /* common.h */,
+				AF4C0DEC1898573100439354 /* common.m */,
+				AF4C0DED1898573100439354 /* Enumerators */,
+				AF4C0DF61898573100439354 /* Node.h */,
+				AF4C0DF71898573100439354 /* Node.m */,
+				AF4C0DF81898573100439354 /* NSString+Base64.h */,
+				AF4C0DF91898573100439354 /* NSString+Base64.m */,
+				AF4C0DFA1898573100439354 /* NSString+Indent.h */,
+				AF4C0DFB1898573100439354 /* NSString+Indent.m */,
+				AF4C0E011898573100439354 /* SortedDictionary+Private.h */,
+				AF4C0E021898573100439354 /* SortedDictionary+Private.m */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		AF4C0DED1898573100439354 /* Enumerators */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0DEE1898573100439354 /* EntryEnumerator+Private.h */,
+				AF4C0DEF1898573100439354 /* EntryEnumerator+Private.m */,
+				AF4C0DF01898573100439354 /* EntryEnumerator.h */,
+				AF4C0DF11898573100439354 /* EntryEnumerator.m */,
+				AF4C0DF21898573100439354 /* KeyEnumerator.h */,
+				AF4C0DF31898573100439354 /* KeyEnumerator.m */,
+				AF4C0DF41898573100439354 /* ObjectEnumerator.h */,
+				AF4C0DF51898573100439354 /* ObjectEnumerator.m */,
+			);
+			path = Enumerators;
+			sourceTree = "<group>";
+		};
+		AF4C0E031898573100439354 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0E041898573100439354 /* MutableSortedDictionary.h */,
+				AF4C0E051898573100439354 /* MutableSortedDictionary.m */,
+				AF4C0E061898573100439354 /* SortedDictionary.h */,
+				AF4C0E071898573100439354 /* SortedDictionary.m */,
+				AF4C0E081898573100439354 /* SortedDictionaryEntry.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		AF4C0E1818985D1A00439354 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0E1918985D1A00439354 /* PropertyListReader.h */,
+				AF4C0E1A18985D1A00439354 /* PropertyListReader.m */,
+				AF4C0E1B18985D1A00439354 /* PropertyListWriter.h */,
+				AF4C0E1C18985D1A00439354 /* PropertyListWriter.m */,
+			);
+			path = Serialization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,13 +660,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4C0D9318984D1000439354 /* ByteTag.m in Sources */,
+				AF4C0DB2189853A900439354 /* DListNode.m in Sources */,
+				AF4C0E0A1898573100439354 /* AvlTree.m in Sources */,
+				AF4C0E1D18985D1A00439354 /* PropertyListReader.m in Sources */,
 				AF4C0D501897F7BA00439354 /* ListTag.m in Sources */,
+				AF4C0E0F1898573100439354 /* ObjectEnumerator.m in Sources */,
+				AF4C0E0D1898573100439354 /* EntryEnumerator.m in Sources */,
+				AF4C0E161898573100439354 /* MutableSortedDictionary.m in Sources */,
+				AF4C0D971898500000439354 /* ByteArrayTag.m in Sources */,
+				AF4C0E1E18985D1A00439354 /* PropertyListWriter.m in Sources */,
+				AF4C0E101898573100439354 /* Node.m in Sources */,
+				AF4C0D8418984A7700439354 /* FloatTag.m in Sources */,
+				AF4C0D8F18984C8500439354 /* EndTag.m in Sources */,
+				AF4C0DB5189853A900439354 /* KVDoubleLinkedList.m in Sources */,
+				AF4C0D8B18984C4400439354 /* DoubleTag.m in Sources */,
+				AF4C0D9B1898511000439354 /* CompoundTag.m in Sources */,
 				AF4C0D54189804B500439354 /* TagHelper.m in Sources */,
+				AF4C0D801898493A00439354 /* IntArrayTag.m in Sources */,
+				AF4C0E0E1898573100439354 /* KeyEnumerator.m in Sources */,
+				AF4C0DB4189853A900439354 /* KeyValueNode.m in Sources */,
+				AF4C0DB8189853A900439354 /* Node.m in Sources */,
+				AF4C0E091898573100439354 /* AvlTree+Private.m in Sources */,
+				AF4C0D7C1898473C00439354 /* IntTag.m in Sources */,
+				AF4C0E111898573100439354 /* NSString+Base64.m in Sources */,
+				AF4C0E0B1898573100439354 /* common.m in Sources */,
+				AF4C0DB3189853A900439354 /* DoubleLinkedList.m in Sources */,
 				AF4C0D4C1897F2D000439354 /* LongTag.m in Sources */,
+				AF4C0D9F1898514300439354 /* CompoundDictionary.m in Sources */,
+				AF4C0DB6189853A900439354 /* LinkedHashMap.m in Sources */,
 				AF4C0D1E1897D65D00439354 /* Tag.m in Sources */,
+				AF4C0E121898573100439354 /* NSString+Indent.m in Sources */,
 				AF4C0D2A1897E5D100439354 /* ShortArrayTag.m in Sources */,
 				AF4C0D221897DCE500439354 /* StringTag.m in Sources */,
+				AF4C0DB7189853A900439354 /* main.m in Sources */,
 				AF4C0D261897E42C00439354 /* ShortTag.m in Sources */,
+				AF4C0E151898573100439354 /* SortedDictionary+Private.m in Sources */,
+				AF4C0E171898573100439354 /* SortedDictionary.m in Sources */,
+				AF4C0E0C1898573100439354 /* EntryEnumerator+Private.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +882,7 @@
 				AF4C0D0F1897C6B200439354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF4C0D101897C6B200439354 /* Build configuration list for PBXNativeTarget "SimpleNBTTests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +891,7 @@
 				AF4C0D121897C6B200439354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,7 +11,7 @@
 
 @implementation ListTag
 
-- (id)initWithTagName:(NSString*)tagName tagType:(id)tagType andValue:(NSArray*)value
+- (id)initWithTagName:(NSString*)tagName tagType:(TagType)tagType andValue:(NSArray*)value
 {
     self = [super initWithTagType:TagType_TAG_LIST andTagName:tagName];
     if (self) {
@@ -37,7 +37,7 @@
     [bldr appendString: @": "];
     [bldr appendString: [@([_tagValue count]) stringValue]];
     [bldr appendString: @" entries of type "];
-    [bldr appendString: [[TagHelper shared] typeNameByClass: [_tagType class]]];
+    [bldr appendString: [[TagHelper shared] tagNameByType:_tagType]];
     [bldr appendString: @"\r\n{\r\n"];
     
     

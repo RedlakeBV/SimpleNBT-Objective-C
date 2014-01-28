@@ -17,7 +17,7 @@
 -(id)copy;
 @end
 
-@interface Tag : NSObject
+@interface Tag : NSObject <TagDataSource>
 
 @property (readonly) NSString *name;
 @property (readonly) TagType type;
