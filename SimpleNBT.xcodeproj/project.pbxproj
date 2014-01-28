@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF4C0CEE1897C6B200439354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4C0CED1897C6B200439354 /* Foundation.framework */; };
+		AF4C0CF31897C6B200439354 /* SimpleNBT.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF4C0CF21897C6B200439354 /* SimpleNBT.h */; };
+		AF4C0CF51897C6B200439354 /* SimpleNBT.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0CF41897C6B200439354 /* SimpleNBT.m */; };
+		AF4C0CFC1897C6B200439354 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4C0CFB1897C6B200439354 /* XCTest.framework */; };
+		AF4C0CFD1897C6B200439354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4C0CED1897C6B200439354 /* Foundation.framework */; };
+		AF4C0CFF1897C6B200439354 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4C0CFE1897C6B200439354 /* UIKit.framework */; };
+		AF4C0D021897C6B200439354 /* libSimpleNBT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4C0CEA1897C6B200439354 /* libSimpleNBT.a */; };
+		AF4C0D081897C6B200439354 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF4C0D061897C6B200439354 /* InfoPlist.strings */; };
+		AF4C0D0A1897C6B200439354 /* SimpleNBTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D091897C6B200439354 /* SimpleNBTTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF4C0D001897C6B200439354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF4C0CE21897C6B200439354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF4C0CE91897C6B200439354;
+			remoteInfo = SimpleNBT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF4C0CE81897C6B200439354 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AF4C0CF31897C6B200439354 /* SimpleNBT.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF4C0CEA1897C6B200439354 /* libSimpleNBT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimpleNBT.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4C0CED1897C6B200439354 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF4C0CF11897C6B200439354 /* SimpleNBT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleNBT-Prefix.pch"; sourceTree = "<group>"; };
+		AF4C0CF21897C6B200439354 /* SimpleNBT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleNBT.h; sourceTree = "<group>"; };
+		AF4C0CF41897C6B200439354 /* SimpleNBT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleNBT.m; sourceTree = "<group>"; };
+		AF4C0CFA1897C6B200439354 /* SimpleNBTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleNBTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4C0CFB1897C6B200439354 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AF4C0CFE1897C6B200439354 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF4C0D051897C6B200439354 /* SimpleNBTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleNBTTests-Info.plist"; sourceTree = "<group>"; };
+		AF4C0D071897C6B200439354 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF4C0D091897C6B200439354 /* SimpleNBTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleNBTTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF4C0CE71897C6B200439354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4C0CEE1897C6B200439354 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4C0CF71897C6B200439354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4C0CFC1897C6B200439354 /* XCTest.framework in Frameworks */,
+				AF4C0CFF1897C6B200439354 /* UIKit.framework in Frameworks */,
+				AF4C0D021897C6B200439354 /* libSimpleNBT.a in Frameworks */,
+				AF4C0CFD1897C6B200439354 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF4C0CE11897C6B200439354 = {
+			isa = PBXGroup;
+			children = (
+				AF4C0CEF1897C6B200439354 /* SimpleNBT */,
+				AF4C0D031897C6B200439354 /* SimpleNBTTests */,
+				AF4C0CEC1897C6B200439354 /* Frameworks */,
+				AF4C0CEB1897C6B200439354 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF4C0CEB1897C6B200439354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0CEA1897C6B200439354 /* libSimpleNBT.a */,
+				AF4C0CFA1897C6B200439354 /* SimpleNBTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF4C0CEC1897C6B200439354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0CED1897C6B200439354 /* Foundation.framework */,
+				AF4C0CFB1897C6B200439354 /* XCTest.framework */,
+				AF4C0CFE1897C6B200439354 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF4C0CEF1897C6B200439354 /* SimpleNBT */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0CF21897C6B200439354 /* SimpleNBT.h */,
+				AF4C0CF41897C6B200439354 /* SimpleNBT.m */,
+				AF4C0CF01897C6B200439354 /* Supporting Files */,
+			);
+			path = SimpleNBT;
+			sourceTree = "<group>";
+		};
+		AF4C0CF01897C6B200439354 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0CF11897C6B200439354 /* SimpleNBT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF4C0D031897C6B200439354 /* SimpleNBTTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D091897C6B200439354 /* SimpleNBTTests.m */,
+				AF4C0D041897C6B200439354 /* Supporting Files */,
+			);
+			path = SimpleNBTTests;
+			sourceTree = "<group>";
+		};
+		AF4C0D041897C6B200439354 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D051897C6B200439354 /* SimpleNBTTests-Info.plist */,
+				AF4C0D061897C6B200439354 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF4C0CE91897C6B200439354 /* SimpleNBT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4C0D0D1897C6B200439354 /* Build configuration list for PBXNativeTarget "SimpleNBT" */;
+			buildPhases = (
+				AF4C0CE61897C6B200439354 /* Sources */,
+				AF4C0CE71897C6B200439354 /* Frameworks */,
+				AF4C0CE81897C6B200439354 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleNBT;
+			productName = SimpleNBT;
+			productReference = AF4C0CEA1897C6B200439354 /* libSimpleNBT.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AF4C0CF91897C6B200439354 /* SimpleNBTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4C0D101897C6B200439354 /* Build configuration list for PBXNativeTarget "SimpleNBTTests" */;
+			buildPhases = (
+				AF4C0CF61897C6B200439354 /* Sources */,
+				AF4C0CF71897C6B200439354 /* Frameworks */,
+				AF4C0CF81897C6B200439354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF4C0D011897C6B200439354 /* PBXTargetDependency */,
+			);
+			name = SimpleNBTTests;
+			productName = SimpleNBTTests;
+			productReference = AF4C0CFA1897C6B200439354 /* SimpleNBTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF4C0CE21897C6B200439354 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Redlake;
+			};
+			buildConfigurationList = AF4C0CE51897C6B200439354 /* Build configuration list for PBXProject "SimpleNBT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF4C0CE11897C6B200439354;
+			productRefGroup = AF4C0CEB1897C6B200439354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF4C0CE91897C6B200439354 /* SimpleNBT */,
+				AF4C0CF91897C6B200439354 /* SimpleNBTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF4C0CF81897C6B200439354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4C0D081897C6B200439354 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF4C0CE61897C6B200439354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4C0CF51897C6B200439354 /* SimpleNBT.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4C0CF61897C6B200439354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4C0D0A1897C6B200439354 /* SimpleNBTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF4C0D011897C6B200439354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF4C0CE91897C6B200439354 /* SimpleNBT */;
+			targetProxy = AF4C0D001897C6B200439354 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF4C0D061897C6B200439354 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4C0D071897C6B200439354 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF4C0D0B1897C6B200439354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF4C0D0C1897C6B200439354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF4C0D0E1897C6B200439354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SimpleNBT.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleNBT/SimpleNBT-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF4C0D0F1897C6B200439354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SimpleNBT.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleNBT/SimpleNBT-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AF4C0D111897C6B200439354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleNBT/SimpleNBT-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleNBTTests/SimpleNBTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AF4C0D121897C6B200439354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleNBT/SimpleNBT-Prefix.pch";
+				INFOPLIST_FILE = "SimpleNBTTests/SimpleNBTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF4C0CE51897C6B200439354 /* Build configuration list for PBXProject "SimpleNBT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4C0D0B1897C6B200439354 /* Debug */,
+				AF4C0D0C1897C6B200439354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4C0D0D1897C6B200439354 /* Build configuration list for PBXNativeTarget "SimpleNBT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4C0D0E1897C6B200439354 /* Debug */,
+				AF4C0D0F1897C6B200439354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF4C0D101897C6B200439354 /* Build configuration list for PBXNativeTarget "SimpleNBTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4C0D111897C6B200439354 /* Debug */,
+				AF4C0D121897C6B200439354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF4C0CE21897C6B200439354 /* Project object */;
+}
