@@ -14,6 +14,13 @@
 		AF4C0D021897C6B200439354 /* libSimpleNBT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4C0CEA1897C6B200439354 /* libSimpleNBT.a */; };
 		AF4C0D081897C6B200439354 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF4C0D061897C6B200439354 /* InfoPlist.strings */; };
 		AF4C0D0A1897C6B200439354 /* SimpleNBTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D091897C6B200439354 /* SimpleNBTTests.m */; };
+		AF4C0D1E1897D65D00439354 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D1D1897D65D00439354 /* Tag.m */; };
+		AF4C0D221897DCE500439354 /* StringTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D211897DCE500439354 /* StringTag.m */; };
+		AF4C0D261897E42C00439354 /* ShortTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D251897E42C00439354 /* ShortTag.m */; };
+		AF4C0D2A1897E5D100439354 /* ShortArrayTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D291897E5D100439354 /* ShortArrayTag.m */; };
+		AF4C0D4C1897F2D000439354 /* LongTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D4B1897F2D000439354 /* LongTag.m */; };
+		AF4C0D501897F7BA00439354 /* ListTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D4F1897F7BA00439354 /* ListTag.m */; };
+		AF4C0D54189804B500439354 /* TagHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D53189804B500439354 /* TagHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,22 @@
 		AF4C0D051897C6B200439354 /* SimpleNBTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleNBTTests-Info.plist"; sourceTree = "<group>"; };
 		AF4C0D071897C6B200439354 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF4C0D091897C6B200439354 /* SimpleNBTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleNBTTests.m; sourceTree = "<group>"; };
+		AF4C0D1B1897D58B00439354 /* TagType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TagType.h; path = Tag/TagType.h; sourceTree = "<group>"; };
+		AF4C0D1C1897D65D00439354 /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tag.h; path = Tag/Tag.h; sourceTree = "<group>"; };
+		AF4C0D1D1897D65D00439354 /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tag.m; path = Tag/Tag.m; sourceTree = "<group>"; };
+		AF4C0D201897DCE500439354 /* StringTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringTag.h; path = Tag/StringTag.h; sourceTree = "<group>"; };
+		AF4C0D211897DCE500439354 /* StringTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringTag.m; path = Tag/StringTag.m; sourceTree = "<group>"; };
+		AF4C0D241897E42C00439354 /* ShortTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShortTag.h; path = Tag/ShortTag.h; sourceTree = "<group>"; };
+		AF4C0D251897E42C00439354 /* ShortTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShortTag.m; path = Tag/ShortTag.m; sourceTree = "<group>"; };
+		AF4C0D281897E5D100439354 /* ShortArrayTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShortArrayTag.h; path = Tag/ShortArrayTag.h; sourceTree = "<group>"; };
+		AF4C0D291897E5D100439354 /* ShortArrayTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShortArrayTag.m; path = Tag/ShortArrayTag.m; sourceTree = "<group>"; };
+		AF4C0D2C1897E91F00439354 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		AF4C0D4A1897F2D000439354 /* LongTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LongTag.h; path = Tag/LongTag.h; sourceTree = "<group>"; };
+		AF4C0D4B1897F2D000439354 /* LongTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LongTag.m; path = Tag/LongTag.m; sourceTree = "<group>"; };
+		AF4C0D4E1897F7BA00439354 /* ListTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListTag.h; path = Tag/ListTag.h; sourceTree = "<group>"; };
+		AF4C0D4F1897F7BA00439354 /* ListTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListTag.m; path = Tag/ListTag.m; sourceTree = "<group>"; };
+		AF4C0D52189804B500439354 /* TagHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagHelper.h; path = Tag/TagHelper.h; sourceTree = "<group>"; };
+		AF4C0D53189804B500439354 /* TagHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TagHelper.m; path = Tag/TagHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				AF4C0CF11897C6B200439354 /* SimpleNBT-Prefix.pch */,
+				AF4C0D2C1897E91F00439354 /* Constants.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -197,8 +221,79 @@
 		AF4C0D1A1897C73F00439354 /* Tag */ = {
 			isa = PBXGroup;
 			children = (
+				AF4C0D1B1897D58B00439354 /* TagType.h */,
+				AF4C0D1F1897D66300439354 /* Tag */,
+				AF4C0D231897DD6200439354 /* StringTag */,
+				AF4C0D271897E43000439354 /* ShortTag */,
+				AF4C0D2B1897E5D600439354 /* ShortArrayTag */,
+				AF4C0D4D1897F2D500439354 /* LongTag */,
+				AF4C0D511897F7BE00439354 /* ListTag */,
+				AF4C0D55189804B800439354 /* TagHelper */,
 			);
 			name = Tag;
+			sourceTree = "<group>";
+		};
+		AF4C0D1F1897D66300439354 /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D1C1897D65D00439354 /* Tag.h */,
+				AF4C0D1D1897D65D00439354 /* Tag.m */,
+			);
+			name = Tag;
+			sourceTree = "<group>";
+		};
+		AF4C0D231897DD6200439354 /* StringTag */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D201897DCE500439354 /* StringTag.h */,
+				AF4C0D211897DCE500439354 /* StringTag.m */,
+			);
+			name = StringTag;
+			sourceTree = "<group>";
+		};
+		AF4C0D271897E43000439354 /* ShortTag */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D241897E42C00439354 /* ShortTag.h */,
+				AF4C0D251897E42C00439354 /* ShortTag.m */,
+			);
+			name = ShortTag;
+			sourceTree = "<group>";
+		};
+		AF4C0D2B1897E5D600439354 /* ShortArrayTag */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D281897E5D100439354 /* ShortArrayTag.h */,
+				AF4C0D291897E5D100439354 /* ShortArrayTag.m */,
+			);
+			name = ShortArrayTag;
+			sourceTree = "<group>";
+		};
+		AF4C0D4D1897F2D500439354 /* LongTag */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D4A1897F2D000439354 /* LongTag.h */,
+				AF4C0D4B1897F2D000439354 /* LongTag.m */,
+			);
+			name = LongTag;
+			sourceTree = "<group>";
+		};
+		AF4C0D511897F7BE00439354 /* ListTag */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D4E1897F7BA00439354 /* ListTag.h */,
+				AF4C0D4F1897F7BA00439354 /* ListTag.m */,
+			);
+			name = ListTag;
+			sourceTree = "<group>";
+		};
+		AF4C0D55189804B800439354 /* TagHelper */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C0D52189804B500439354 /* TagHelper.h */,
+				AF4C0D53189804B500439354 /* TagHelper.m */,
+			);
+			name = TagHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +377,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4C0D501897F7BA00439354 /* ListTag.m in Sources */,
+				AF4C0D54189804B500439354 /* TagHelper.m in Sources */,
+				AF4C0D4C1897F2D000439354 /* LongTag.m in Sources */,
+				AF4C0D1E1897D65D00439354 /* Tag.m in Sources */,
+				AF4C0D2A1897E5D100439354 /* ShortArrayTag.m in Sources */,
+				AF4C0D221897DCE500439354 /* StringTag.m in Sources */,
+				AF4C0D261897E42C00439354 /* ShortTag.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
