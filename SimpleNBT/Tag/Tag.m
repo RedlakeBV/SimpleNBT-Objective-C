@@ -40,8 +40,8 @@
 
 
 -(BOOL)isEqual:(Tag*)object {
-    if([self isEqual:object])
-        return 0;
+    if(![object isKindOfClass: [Tag class]])
+        return NO;
     if([[object name] isEqualToString:[self name]]) {
         NSString * exceptionReason = @"Cannot compare two Tags with the same name but different values for sorting";
         @throw [NSException exceptionWithName:NSInvalidArgumentException reason:exceptionReason userInfo:nil];

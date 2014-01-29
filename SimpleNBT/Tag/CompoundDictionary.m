@@ -7,8 +7,6 @@
 //
 
 #import "CompoundDictionary.h"
-#import "LinkedHashMap.h"
-#import "MutableSortedDictionary.h"
 #import "Tag.h"
 
 @implementation CompoundDictionary
@@ -22,42 +20,67 @@
     return self;
 }
 
+- (id)initWithInitialCompoundDict:(CompoundDictionary*)initialDictionary;
+{
+    self = [super init];
+    if (self) {
+        _map = [initialDictionary map];
+        _reverse = [initialDictionary reverse];
+        _sort = [initialDictionary sort];
+    }
+    return self;
+}
 
-- (id)initWithInitialCompoundDict:(id)initialMap usesSort:(BOOL) sort andWantsReverse:(BOOL)reverse
+- (id)initWithInitialCompoundDict:(CompoundDictionary*)initialDictionary usesSort:(BOOL) sort andWantsReverse:(BOOL)reverse
 {
     self = [super init];
     if (self) {
         if(reverse)
-            [self setSort: YES];
+        [self setSort: YES];
         else
-            [self setSort: sort];
+        [self setSort: sort];
         [self setReverse: reverse];
         
         if(!sort) {
-            [self setMap: [[LinkedHashMap alloc] init]];
+            _map = [[CHOrderedDictionary alloc] init];
         } else {
-#warning when enumerated, if reverse is YES, it should reverse enumerate
-            [self setMap:[[MutableSortedDictionary alloc] init]];
-            
+            _map = [[CHSortedDictionary alloc] init];
         }
-        if(initialMap) {
-            for(Tag * t in initialMap) {
-                [self put: t];
+        
+        if(initialDictionary) {
+            for(Tag * t in [initialDictionary map]) {
+                [_map setObject:t forKey:[t name]];
             }
         }
     }
     return self;
 }
 
-
--(void)put:(Tag<TagDataSource>*)tag {
-    if([_map isKindOfClass: [LinkedHashMap class]]) {
-        [(LinkedHashMap*)_map insertValue:tag withKey:[tag name]];
-    } else if([_map isKindOfClass: [MutableSortedDictionary class]]) {
-        [(MutableSortedDictionary*) _map setValue:tag forKey:[tag name]];
+-(BOOL)isEqual:(CompoundDictionary*)object {
+    if(![object isKindOfClass: [CompoundDictionary class]]) return NO;
+    if([(CHMutableDictionary*)[self map] count] != [(CHMutableDictionary*)[object map] count]) return NO;
+    
+    NSEnumerator * thisCD;
+    if(_sort && _reverse)
+        thisCD = [(CHSortedDictionary*)[self map] reverseKeyEnumerator];
+    else
+        thisCD = [(CHMutableDictionary*)[self map] keyEnumerator];
+    
+    NSEnumerator * otherCD;
+    if(_sort && _reverse)
+        otherCD = [(CHSortedDictionary*)[self map] reverseKeyEnumerator];
+    else
+        otherCD = [(CHMutableDictionary*)[self map] keyEnumerator];
+    
+    
+    for(NSString *aKey in thisCD) {
+        Tag * tag1 = [[self map] objectForKey:aKey];
+        Tag * tag2 = [[self map] objectForKey:aKey];
+        if(!tag1 || !tag2 || ![tag1 isEqual:tag2]) {
+            return  NO;
+        }
     }
+    return YES;
 }
-
-
 
 @end

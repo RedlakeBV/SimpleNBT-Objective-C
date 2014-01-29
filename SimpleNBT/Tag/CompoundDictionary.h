@@ -7,14 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CHOrderedDictionary.h"
+#import "CHSortedDictionary.h"
 
 @interface CompoundDictionary : NSObject
 
-@property (nonatomic) id map;
+@property (nonatomic) CHMutableDictionary * map;
 @property (nonatomic) BOOL sort;
 @property (nonatomic) BOOL reverse;
 
 
--(id)initWithInitialCompoundDict:(id)map usesSort:(BOOL) sort andWantsReverse:(BOOL)reverse;
+-(id)initWithInitialCompoundDict:(CompoundDictionary*)initialDictionary;
+-(id)initWithInitialCompoundDict:(CompoundDictionary*)map usesSort:(BOOL) sort andWantsReverse:(BOOL)reverse;
 
 @end

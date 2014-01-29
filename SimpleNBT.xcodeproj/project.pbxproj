@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF49A60018990D1600A4A27C /* CHSortedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AF49A5FF18990D1600A4A27C /* CHSortedDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		AF49A60718990E3400A4A27C /* CHAbstractBinarySearchTree.m in Sources */ = {isa = PBXBuildFile; fileRef = AF49A60418990E3400A4A27C /* CHAbstractBinarySearchTree.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		AF49A60818990E3400A4A27C /* CHAVLTree.m in Sources */ = {isa = PBXBuildFile; fileRef = AF49A60618990E3400A4A27C /* CHAVLTree.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
 		AF4C0CEE1897C6B200439354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4C0CED1897C6B200439354 /* Foundation.framework */; };
 		AF4C0CFC1897C6B200439354 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4C0CFB1897C6B200439354 /* XCTest.framework */; };
 		AF4C0CFD1897C6B200439354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4C0CED1897C6B200439354 /* Foundation.framework */; };
@@ -30,28 +33,10 @@
 		AF4C0D971898500000439354 /* ByteArrayTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D961898500000439354 /* ByteArrayTag.m */; };
 		AF4C0D9B1898511000439354 /* CompoundTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D9A1898511000439354 /* CompoundTag.m */; };
 		AF4C0D9F1898514300439354 /* CompoundDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0D9E1898514300439354 /* CompoundDictionary.m */; };
-		AF4C0DB2189853A900439354 /* DListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DA3189853A900439354 /* DListNode.m */; };
-		AF4C0DB3189853A900439354 /* DoubleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DA5189853A900439354 /* DoubleLinkedList.m */; };
-		AF4C0DB4189853A900439354 /* KeyValueNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DA9189853A900439354 /* KeyValueNode.m */; };
-		AF4C0DB5189853A900439354 /* KVDoubleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DAB189853A900439354 /* KVDoubleLinkedList.m */; };
-		AF4C0DB6189853A900439354 /* LinkedHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DAE189853A900439354 /* LinkedHashMap.m */; };
-		AF4C0DB7189853A900439354 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DAF189853A900439354 /* main.m */; };
-		AF4C0DB8189853A900439354 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DB1189853A900439354 /* Node.m */; };
-		AF4C0E091898573100439354 /* AvlTree+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DE81898573100439354 /* AvlTree+Private.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AF4C0E0A1898573100439354 /* AvlTree.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DEA1898573100439354 /* AvlTree.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
-		AF4C0E0B1898573100439354 /* common.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DEC1898573100439354 /* common.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AF4C0E0C1898573100439354 /* EntryEnumerator+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DEF1898573100439354 /* EntryEnumerator+Private.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AF4C0E0D1898573100439354 /* EntryEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DF11898573100439354 /* EntryEnumerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AF4C0E0E1898573100439354 /* KeyEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DF31898573100439354 /* KeyEnumerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AF4C0E0F1898573100439354 /* ObjectEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DF51898573100439354 /* ObjectEnumerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AF4C0E101898573100439354 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DF71898573100439354 /* Node.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AF4C0E111898573100439354 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DF91898573100439354 /* NSString+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AF4C0E121898573100439354 /* NSString+Indent.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0DFB1898573100439354 /* NSString+Indent.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AF4C0E151898573100439354 /* SortedDictionary+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0E021898573100439354 /* SortedDictionary+Private.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AF4C0E161898573100439354 /* MutableSortedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0E051898573100439354 /* MutableSortedDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AF4C0E171898573100439354 /* SortedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0E071898573100439354 /* SortedDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AF4C0E1D18985D1A00439354 /* PropertyListReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0E1A18985D1A00439354 /* PropertyListReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
-		AF4C0E1E18985D1A00439354 /* PropertyListWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C0E1C18985D1A00439354 /* PropertyListWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AFB901A01898FFEA00D88259 /* CHMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB9019B1898FFEA00D88259 /* CHMutableDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		AFB901A11898FFEA00D88259 /* CHOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB9019D1898FFEA00D88259 /* CHOrderedDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		AFB901A21898FFEA00D88259 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB9019F1898FFEA00D88259 /* Util.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		AFB901A51899005700D88259 /* CHCircularBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB901A41899005700D88259 /* CHCircularBuffer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,18 +50,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AF4C0CE81897C6B200439354 /* CopyFiles */ = {
+		AF4C0CE81897C6B200439354 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF49A5FE18990D1600A4A27C /* CHSortedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSortedDictionary.h; sourceTree = "<group>"; };
+		AF49A5FF18990D1600A4A27C /* CHSortedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSortedDictionary.m; sourceTree = "<group>"; };
+		AF49A60118990E0100A4A27C /* CHSortedSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSortedSet.h; sourceTree = "<group>"; };
+		AF49A60218990E3400A4A27C /* CHAbstractBinarySearchTree_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAbstractBinarySearchTree_Internal.h; sourceTree = "<group>"; };
+		AF49A60318990E3400A4A27C /* CHAbstractBinarySearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAbstractBinarySearchTree.h; sourceTree = "<group>"; };
+		AF49A60418990E3400A4A27C /* CHAbstractBinarySearchTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAbstractBinarySearchTree.m; sourceTree = "<group>"; };
+		AF49A60518990E3400A4A27C /* CHAVLTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAVLTree.h; sourceTree = "<group>"; };
+		AF49A60618990E3400A4A27C /* CHAVLTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAVLTree.m; sourceTree = "<group>"; };
+		AF49A60918990E5800A4A27C /* CHSearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSearchTree.h; sourceTree = "<group>"; };
 		AF4C0CEA1897C6B200439354 /* libSimpleNBT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimpleNBT.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4C0CED1897C6B200439354 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF4C0CF11897C6B200439354 /* SimpleNBT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleNBT-Prefix.pch"; sourceTree = "<group>"; };
@@ -120,53 +115,14 @@
 		AF4C0D9A1898511000439354 /* CompoundTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompoundTag.m; path = Tag/CompoundTag.m; sourceTree = "<group>"; };
 		AF4C0D9D1898514300439354 /* CompoundDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompoundDictionary.h; path = Tag/CompoundDictionary.h; sourceTree = "<group>"; };
 		AF4C0D9E1898514300439354 /* CompoundDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompoundDictionary.m; path = Tag/CompoundDictionary.m; sourceTree = "<group>"; };
-		AF4C0DA2189853A900439354 /* DListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DListNode.h; sourceTree = "<group>"; };
-		AF4C0DA3189853A900439354 /* DListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DListNode.m; sourceTree = "<group>"; };
-		AF4C0DA4189853A900439354 /* DoubleLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleLinkedList.h; sourceTree = "<group>"; };
-		AF4C0DA5189853A900439354 /* DoubleLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleLinkedList.m; sourceTree = "<group>"; };
-		AF4C0DA6189853A900439354 /* IList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IList.h; sourceTree = "<group>"; };
-		AF4C0DA7189853A900439354 /* INode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INode.h; sourceTree = "<group>"; };
-		AF4C0DA8189853A900439354 /* KeyValueNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValueNode.h; sourceTree = "<group>"; };
-		AF4C0DA9189853A900439354 /* KeyValueNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValueNode.m; sourceTree = "<group>"; };
-		AF4C0DAA189853A900439354 /* KVDoubleLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVDoubleLinkedList.h; sourceTree = "<group>"; };
-		AF4C0DAB189853A900439354 /* KVDoubleLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVDoubleLinkedList.m; sourceTree = "<group>"; };
-		AF4C0DAC189853A900439354 /* LinkedHashMap-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LinkedHashMap-Prefix.pch"; sourceTree = "<group>"; };
-		AF4C0DAD189853A900439354 /* LinkedHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedHashMap.h; sourceTree = "<group>"; };
-		AF4C0DAE189853A900439354 /* LinkedHashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedHashMap.m; sourceTree = "<group>"; };
-		AF4C0DAF189853A900439354 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AF4C0DB0189853A900439354 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
-		AF4C0DB1189853A900439354 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
-		AF4C0DE71898573100439354 /* AvlTree+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AvlTree+Private.h"; sourceTree = "<group>"; };
-		AF4C0DE81898573100439354 /* AvlTree+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AvlTree+Private.m"; sourceTree = "<group>"; };
-		AF4C0DE91898573100439354 /* AvlTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvlTree.h; sourceTree = "<group>"; };
-		AF4C0DEA1898573100439354 /* AvlTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvlTree.m; sourceTree = "<group>"; };
-		AF4C0DEB1898573100439354 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
-		AF4C0DEC1898573100439354 /* common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = common.m; sourceTree = "<group>"; };
-		AF4C0DEE1898573100439354 /* EntryEnumerator+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EntryEnumerator+Private.h"; sourceTree = "<group>"; };
-		AF4C0DEF1898573100439354 /* EntryEnumerator+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EntryEnumerator+Private.m"; sourceTree = "<group>"; };
-		AF4C0DF01898573100439354 /* EntryEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryEnumerator.h; sourceTree = "<group>"; };
-		AF4C0DF11898573100439354 /* EntryEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryEnumerator.m; sourceTree = "<group>"; };
-		AF4C0DF21898573100439354 /* KeyEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyEnumerator.h; sourceTree = "<group>"; };
-		AF4C0DF31898573100439354 /* KeyEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyEnumerator.m; sourceTree = "<group>"; };
-		AF4C0DF41898573100439354 /* ObjectEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectEnumerator.h; sourceTree = "<group>"; };
-		AF4C0DF51898573100439354 /* ObjectEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectEnumerator.m; sourceTree = "<group>"; };
-		AF4C0DF61898573100439354 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
-		AF4C0DF71898573100439354 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
-		AF4C0DF81898573100439354 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
-		AF4C0DF91898573100439354 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
-		AF4C0DFA1898573100439354 /* NSString+Indent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Indent.h"; sourceTree = "<group>"; };
-		AF4C0DFB1898573100439354 /* NSString+Indent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Indent.m"; sourceTree = "<group>"; };
-		AF4C0E011898573100439354 /* SortedDictionary+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SortedDictionary+Private.h"; sourceTree = "<group>"; };
-		AF4C0E021898573100439354 /* SortedDictionary+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SortedDictionary+Private.m"; sourceTree = "<group>"; };
-		AF4C0E041898573100439354 /* MutableSortedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableSortedDictionary.h; sourceTree = "<group>"; };
-		AF4C0E051898573100439354 /* MutableSortedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableSortedDictionary.m; sourceTree = "<group>"; };
-		AF4C0E061898573100439354 /* SortedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortedDictionary.h; sourceTree = "<group>"; };
-		AF4C0E071898573100439354 /* SortedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortedDictionary.m; sourceTree = "<group>"; };
-		AF4C0E081898573100439354 /* SortedDictionaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortedDictionaryEntry.h; sourceTree = "<group>"; };
-		AF4C0E1918985D1A00439354 /* PropertyListReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyListReader.h; sourceTree = "<group>"; };
-		AF4C0E1A18985D1A00439354 /* PropertyListReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyListReader.m; sourceTree = "<group>"; };
-		AF4C0E1B18985D1A00439354 /* PropertyListWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyListWriter.h; sourceTree = "<group>"; };
-		AF4C0E1C18985D1A00439354 /* PropertyListWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyListWriter.m; sourceTree = "<group>"; };
+		AFB9019A1898FFEA00D88259 /* CHMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMutableDictionary.h; sourceTree = "<group>"; };
+		AFB9019B1898FFEA00D88259 /* CHMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMutableDictionary.m; sourceTree = "<group>"; };
+		AFB9019C1898FFEA00D88259 /* CHOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOrderedDictionary.h; sourceTree = "<group>"; };
+		AFB9019D1898FFEA00D88259 /* CHOrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOrderedDictionary.m; sourceTree = "<group>"; };
+		AFB9019E1898FFEA00D88259 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		AFB9019F1898FFEA00D88259 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		AFB901A31899005700D88259 /* CHCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCircularBuffer.h; sourceTree = "<group>"; };
+		AFB901A41899005700D88259 /* CHCircularBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCircularBuffer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,8 +258,7 @@
 		AF4C0D181897C70600439354 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				AF4C0DE51898573100439354 /* SortedDictionary */,
-				AF4C0DA1189853A900439354 /* LinkedHashMap */,
+				AFB901991898FFEA00D88259 /* CHDSLite */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -484,99 +439,29 @@
 			name = CompoundMap;
 			sourceTree = "<group>";
 		};
-		AF4C0DA1189853A900439354 /* LinkedHashMap */ = {
+		AFB901991898FFEA00D88259 /* CHDSLite */ = {
 			isa = PBXGroup;
 			children = (
-				AF4C0DA2189853A900439354 /* DListNode.h */,
-				AF4C0DA3189853A900439354 /* DListNode.m */,
-				AF4C0DA4189853A900439354 /* DoubleLinkedList.h */,
-				AF4C0DA5189853A900439354 /* DoubleLinkedList.m */,
-				AF4C0DA6189853A900439354 /* IList.h */,
-				AF4C0DA7189853A900439354 /* INode.h */,
-				AF4C0DA8189853A900439354 /* KeyValueNode.h */,
-				AF4C0DA9189853A900439354 /* KeyValueNode.m */,
-				AF4C0DAA189853A900439354 /* KVDoubleLinkedList.h */,
-				AF4C0DAB189853A900439354 /* KVDoubleLinkedList.m */,
-				AF4C0DAC189853A900439354 /* LinkedHashMap-Prefix.pch */,
-				AF4C0DAD189853A900439354 /* LinkedHashMap.h */,
-				AF4C0DAE189853A900439354 /* LinkedHashMap.m */,
-				AF4C0DAF189853A900439354 /* main.m */,
-				AF4C0DB0189853A900439354 /* Node.h */,
-				AF4C0DB1189853A900439354 /* Node.m */,
+				AF49A60918990E5800A4A27C /* CHSearchTree.h */,
+				AF49A60218990E3400A4A27C /* CHAbstractBinarySearchTree_Internal.h */,
+				AF49A60318990E3400A4A27C /* CHAbstractBinarySearchTree.h */,
+				AF49A60418990E3400A4A27C /* CHAbstractBinarySearchTree.m */,
+				AF49A60518990E3400A4A27C /* CHAVLTree.h */,
+				AF49A60618990E3400A4A27C /* CHAVLTree.m */,
+				AF49A60118990E0100A4A27C /* CHSortedSet.h */,
+				AF49A5FE18990D1600A4A27C /* CHSortedDictionary.h */,
+				AF49A5FF18990D1600A4A27C /* CHSortedDictionary.m */,
+				AFB901A31899005700D88259 /* CHCircularBuffer.h */,
+				AFB901A41899005700D88259 /* CHCircularBuffer.m */,
+				AFB9019A1898FFEA00D88259 /* CHMutableDictionary.h */,
+				AFB9019B1898FFEA00D88259 /* CHMutableDictionary.m */,
+				AFB9019C1898FFEA00D88259 /* CHOrderedDictionary.h */,
+				AFB9019D1898FFEA00D88259 /* CHOrderedDictionary.m */,
+				AFB9019E1898FFEA00D88259 /* Util.h */,
+				AFB9019F1898FFEA00D88259 /* Util.m */,
 			);
-			name = LinkedHashMap;
-			path = Util/LinkedHashMap;
-			sourceTree = "<group>";
-		};
-		AF4C0DE51898573100439354 /* SortedDictionary */ = {
-			isa = PBXGroup;
-			children = (
-				AF4C0DE61898573100439354 /* Internal */,
-				AF4C0E031898573100439354 /* Public */,
-			);
-			name = SortedDictionary;
-			path = Util/SortedDictionary;
-			sourceTree = "<group>";
-		};
-		AF4C0DE61898573100439354 /* Internal */ = {
-			isa = PBXGroup;
-			children = (
-				AF4C0E1818985D1A00439354 /* Serialization */,
-				AF4C0DE71898573100439354 /* AvlTree+Private.h */,
-				AF4C0DE81898573100439354 /* AvlTree+Private.m */,
-				AF4C0DE91898573100439354 /* AvlTree.h */,
-				AF4C0DEA1898573100439354 /* AvlTree.m */,
-				AF4C0DEB1898573100439354 /* common.h */,
-				AF4C0DEC1898573100439354 /* common.m */,
-				AF4C0DED1898573100439354 /* Enumerators */,
-				AF4C0DF61898573100439354 /* Node.h */,
-				AF4C0DF71898573100439354 /* Node.m */,
-				AF4C0DF81898573100439354 /* NSString+Base64.h */,
-				AF4C0DF91898573100439354 /* NSString+Base64.m */,
-				AF4C0DFA1898573100439354 /* NSString+Indent.h */,
-				AF4C0DFB1898573100439354 /* NSString+Indent.m */,
-				AF4C0E011898573100439354 /* SortedDictionary+Private.h */,
-				AF4C0E021898573100439354 /* SortedDictionary+Private.m */,
-			);
-			path = Internal;
-			sourceTree = "<group>";
-		};
-		AF4C0DED1898573100439354 /* Enumerators */ = {
-			isa = PBXGroup;
-			children = (
-				AF4C0DEE1898573100439354 /* EntryEnumerator+Private.h */,
-				AF4C0DEF1898573100439354 /* EntryEnumerator+Private.m */,
-				AF4C0DF01898573100439354 /* EntryEnumerator.h */,
-				AF4C0DF11898573100439354 /* EntryEnumerator.m */,
-				AF4C0DF21898573100439354 /* KeyEnumerator.h */,
-				AF4C0DF31898573100439354 /* KeyEnumerator.m */,
-				AF4C0DF41898573100439354 /* ObjectEnumerator.h */,
-				AF4C0DF51898573100439354 /* ObjectEnumerator.m */,
-			);
-			path = Enumerators;
-			sourceTree = "<group>";
-		};
-		AF4C0E031898573100439354 /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				AF4C0E041898573100439354 /* MutableSortedDictionary.h */,
-				AF4C0E051898573100439354 /* MutableSortedDictionary.m */,
-				AF4C0E061898573100439354 /* SortedDictionary.h */,
-				AF4C0E071898573100439354 /* SortedDictionary.m */,
-				AF4C0E081898573100439354 /* SortedDictionaryEntry.h */,
-			);
-			path = Public;
-			sourceTree = "<group>";
-		};
-		AF4C0E1818985D1A00439354 /* Serialization */ = {
-			isa = PBXGroup;
-			children = (
-				AF4C0E1918985D1A00439354 /* PropertyListReader.h */,
-				AF4C0E1A18985D1A00439354 /* PropertyListReader.m */,
-				AF4C0E1B18985D1A00439354 /* PropertyListWriter.h */,
-				AF4C0E1C18985D1A00439354 /* PropertyListWriter.m */,
-			);
-			path = Serialization;
+			name = CHDSLite;
+			path = Util/CHDSLite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -588,7 +473,7 @@
 			buildPhases = (
 				AF4C0CE61897C6B200439354 /* Sources */,
 				AF4C0CE71897C6B200439354 /* Frameworks */,
-				AF4C0CE81897C6B200439354 /* CopyFiles */,
+				AF4C0CE81897C6B200439354 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -661,43 +546,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF4C0D9318984D1000439354 /* ByteTag.m in Sources */,
-				AF4C0DB2189853A900439354 /* DListNode.m in Sources */,
-				AF4C0E0A1898573100439354 /* AvlTree.m in Sources */,
-				AF4C0E1D18985D1A00439354 /* PropertyListReader.m in Sources */,
 				AF4C0D501897F7BA00439354 /* ListTag.m in Sources */,
-				AF4C0E0F1898573100439354 /* ObjectEnumerator.m in Sources */,
-				AF4C0E0D1898573100439354 /* EntryEnumerator.m in Sources */,
-				AF4C0E161898573100439354 /* MutableSortedDictionary.m in Sources */,
+				AFB901A11898FFEA00D88259 /* CHOrderedDictionary.m in Sources */,
+				AFB901A51899005700D88259 /* CHCircularBuffer.m in Sources */,
 				AF4C0D971898500000439354 /* ByteArrayTag.m in Sources */,
-				AF4C0E1E18985D1A00439354 /* PropertyListWriter.m in Sources */,
-				AF4C0E101898573100439354 /* Node.m in Sources */,
 				AF4C0D8418984A7700439354 /* FloatTag.m in Sources */,
 				AF4C0D8F18984C8500439354 /* EndTag.m in Sources */,
-				AF4C0DB5189853A900439354 /* KVDoubleLinkedList.m in Sources */,
 				AF4C0D8B18984C4400439354 /* DoubleTag.m in Sources */,
 				AF4C0D9B1898511000439354 /* CompoundTag.m in Sources */,
 				AF4C0D54189804B500439354 /* TagHelper.m in Sources */,
 				AF4C0D801898493A00439354 /* IntArrayTag.m in Sources */,
-				AF4C0E0E1898573100439354 /* KeyEnumerator.m in Sources */,
-				AF4C0DB4189853A900439354 /* KeyValueNode.m in Sources */,
-				AF4C0DB8189853A900439354 /* Node.m in Sources */,
-				AF4C0E091898573100439354 /* AvlTree+Private.m in Sources */,
 				AF4C0D7C1898473C00439354 /* IntTag.m in Sources */,
-				AF4C0E111898573100439354 /* NSString+Base64.m in Sources */,
-				AF4C0E0B1898573100439354 /* common.m in Sources */,
-				AF4C0DB3189853A900439354 /* DoubleLinkedList.m in Sources */,
 				AF4C0D4C1897F2D000439354 /* LongTag.m in Sources */,
 				AF4C0D9F1898514300439354 /* CompoundDictionary.m in Sources */,
-				AF4C0DB6189853A900439354 /* LinkedHashMap.m in Sources */,
+				AF49A60018990D1600A4A27C /* CHSortedDictionary.m in Sources */,
 				AF4C0D1E1897D65D00439354 /* Tag.m in Sources */,
-				AF4C0E121898573100439354 /* NSString+Indent.m in Sources */,
 				AF4C0D2A1897E5D100439354 /* ShortArrayTag.m in Sources */,
 				AF4C0D221897DCE500439354 /* StringTag.m in Sources */,
-				AF4C0DB7189853A900439354 /* main.m in Sources */,
+				AFB901A01898FFEA00D88259 /* CHMutableDictionary.m in Sources */,
+				AFB901A21898FFEA00D88259 /* Util.m in Sources */,
+				AF49A60818990E3400A4A27C /* CHAVLTree.m in Sources */,
 				AF4C0D261897E42C00439354 /* ShortTag.m in Sources */,
-				AF4C0E151898573100439354 /* SortedDictionary+Private.m in Sources */,
-				AF4C0E171898573100439354 /* SortedDictionary.m in Sources */,
-				AF4C0E0C1898573100439354 /* EntryEnumerator+Private.m in Sources */,
+				AF49A60718990E3400A4A27C /* CHAbstractBinarySearchTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -796,6 +666,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -804,9 +675,11 @@
 		AF4C0D0E1897C6B200439354 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/SimpleNBT.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleNBT/SimpleNBT-Prefix.pch";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -817,8 +690,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/SimpleNBT.dst;
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleNBT/SimpleNBT-Prefix.pch";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
